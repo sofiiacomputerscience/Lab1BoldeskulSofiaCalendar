@@ -34,7 +34,7 @@ namespace Lab1BoldeskulSofiaCalendar
 
             int nYear = DateTime.Today.Year;
             int y = DatePick.SelectedDate.Value.Year;
-            int finalYear = nYear - y; // years now without month
+            int finalYear = nYear - y; 
             if (finalYear == 135)
             {
                 if (DateTime.Today.Month >= DatePick.SelectedDate.Value.Month)
