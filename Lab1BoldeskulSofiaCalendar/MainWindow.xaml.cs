@@ -32,7 +32,6 @@ namespace Lab1BoldeskulSofiaCalendar
                 MessageBox.Show("Wait... you have not born yet!");
             }
 
-
             int nYear = DateTime.Today.Year;
             int y = DatePick.SelectedDate.Value.Year;
             int finalYear = nYear - y; // years now without month
